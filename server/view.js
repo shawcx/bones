@@ -1,5 +1,5 @@
 var Backbone = require('./backbone');
-var $ = require('jquery')(require("jsdom").jsdom().parentWindow);
+var $ = require('jquery')(require("jsdom").jsdom().defaultView);
 var _ = require('underscore');
 
 module.exports = Backbone.View;
