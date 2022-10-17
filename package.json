@@ -23,8 +23,5 @@
     "scripts": {
         "test": "expresso -I ..",
         "coverage": "./test/coverage.sh"
-    },
-    "engines": {
-      "node": "0.4 || 0.6 || 0.8 || 0.10"
     }
 }
